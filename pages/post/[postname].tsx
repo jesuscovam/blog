@@ -10,7 +10,7 @@ const BlogPost: NextPage<BlogPostProps> = ({ frontmatter, markdownBody }) => {
 
   return (
     <Layout>
-      <main className="mx-32">
+      <main className="md:mx-32">
         <Link href="/">
           <a className="font-black text-xl">Inicio</a>
         </Link>
